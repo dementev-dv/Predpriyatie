@@ -262,8 +262,10 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Договоры</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>Продажа</Document>
 			<Document>ПоступлениеТоваровУслуг</Document>
+			<Document>РеализацияТоваровУслуг</Document>
 			<Report>Продажи</Report>
 			<DataProcessor>РаспределениеБюджета</DataProcessor>
 			<AccumulationRegister>Продажи</AccumulationRegister>
