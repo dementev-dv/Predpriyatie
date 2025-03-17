@@ -20,6 +20,10 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РаспределениеБюджета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Договора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходнаяНакладная</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -1,44 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="edad4acc-9719-4685-8f0a-ef127fc26749">
+	<Catalog uuid="3b5d18c7-49f0-4c85-b2e4-cfab786b2a37">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
-				<xr:TypeId>d0551662-cfbd-4ce3-b1e1-607c7ed7b869</xr:TypeId>
-				<xr:ValueId>dd8bd048-4aa9-4573-9815-dfbba8584a2a</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Договора" category="Object">
+				<xr:TypeId>fb6f0694-a88d-42de-855b-371b4c5f3fe5</xr:TypeId>
+				<xr:ValueId>f07af003-b9bc-4c68-a0b8-53cb1e8b11e8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
-				<xr:TypeId>b7c1c916-405b-4add-b8eb-5d4ae17f3433</xr:TypeId>
-				<xr:ValueId>12e97681-d5d1-477c-bac9-06471d99ed0f</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Договора" category="Ref">
+				<xr:TypeId>a52afc3f-f67e-472f-bc51-397544913df0</xr:TypeId>
+				<xr:ValueId>fd79c7bb-cb46-4054-b897-d5064fb5fc4b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
-				<xr:TypeId>d2d9bdf0-0a9b-4f1e-9c33-b3986998380a</xr:TypeId>
-				<xr:ValueId>98b59795-3695-4a01-a551-6f0b601241b4</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Договора" category="Selection">
+				<xr:TypeId>07b4b502-7bfa-4c55-8b6d-a9429e13528a</xr:TypeId>
+				<xr:ValueId>d932e47b-728c-4c30-ad28-e2f101f63dae</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
-				<xr:TypeId>e51c8ec0-4918-4994-9b5b-2062d598dc52</xr:TypeId>
-				<xr:ValueId>db9a851e-f7b8-41f6-a180-534a8dfead51</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Договора" category="List">
+				<xr:TypeId>0b0b2cf8-7ed3-4e17-aca4-30981ce29246</xr:TypeId>
+				<xr:ValueId>ec8e8bb4-d722-4691-a314-8c181b726e21</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
-				<xr:TypeId>1ebceb56-f849-44fc-a86b-f713498b202a</xr:TypeId>
-				<xr:ValueId>7c1f2811-a958-40ac-9cb4-c395ccf794b1</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Договора" category="Manager">
+				<xr:TypeId>57973aa2-e16c-40fe-a900-1146d9c93491</xr:TypeId>
+				<xr:ValueId>9b2399eb-9c6b-4133-9fa7-ff39abfda01e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Номенклатура</Name>
+			<Name>Договора</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура</v8:content>
+					<v8:content>Договора</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
@@ -54,8 +56,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Номенклатура.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Номенклатура.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Договора.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Договора.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -87,23 +89,21 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="ba84f3bd-1b11-44a2-9a9e-c1065b51ffed">
+			<Attribute uuid="55832031-52c3-4a91-b8ca-50f86839cc30">
 				<Properties>
-					<Name>ЦенаПоУмолчанию</Name>
+					<Name>ДатаНачала</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цена по умолчанию</v8:content>
+							<v8:content>Дата начала</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -132,62 +132,21 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e76fc7b4-456b-4bd6-b053-8a0fb6936999">
+			<Attribute uuid="41a9e143-331a-45d0-8373-12e0c76ce959">
 				<Properties>
-					<Name>ПолноеНаименование</Name>
+					<Name>ДатаОкончания</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Полное наименование</v8:content>
+							<v8:content>Дата окончания</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="8a0dbbc1-c756-423c-b9dc-7a8468350582">
-				<Properties>
-					<Name>ВидНоменклатуры</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид номенклатуры</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:EnumRef.ВидНоменклатуры</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

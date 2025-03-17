@@ -263,12 +263,19 @@
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>ЕдиницыИзмерения</Catalog>
+			<Catalog>Договора</Catalog>
 			<Document>Продажа</Document>
 			<Document>ПоступлениеТоваровУслуг</Document>
 			<Document>РеализацияТоваровУслуг</Document>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>РасходнаяНакладная</Document>
+			<Enum>ВидНоменклатуры</Enum>
 			<Report>Продажи</Report>
 			<DataProcessor>РаспределениеБюджета</DataProcessor>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
